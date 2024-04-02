@@ -1,0 +1,8 @@
+04-02 21:23:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (login, password) values ('admin','admin') [42102-187]
+04-02 21:23:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where login='admin' [42102-187]
